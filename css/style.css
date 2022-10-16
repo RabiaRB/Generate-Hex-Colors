@@ -22,22 +22,25 @@
 /*******************************************/
 
 body{
+     height: 100vh;
+     width: 100vw;
      display: flex;
      justify-content: space-between;
 
 }
 
 .sidepanel{
-     width: 20vw;
-     height: 100vh;
+     width: 20%;
+     height: 100%;
      background: rgb(72, 96, 128);
      background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(186,51,51,1) 20%, rgba(252,252,69,1) 40%, rgba(69,252,111,1) 60%, rgba(69,100,252,1) 80%, rgba(69,252,234,1) 99%);
 }
 main {
+     margin-top: 20px;
      display: flex;
      flex-direction: column;
-     /* justify-content: center; */
      align-items: center;
+    
 }
 
 form{
@@ -53,7 +56,10 @@ form{
      align-items: center;
 }
 
-
+#colorInput{
+     margin: 20px;
+     width: 120px;
+}
 #shape{
      height: 400px;
      width: 400px;
