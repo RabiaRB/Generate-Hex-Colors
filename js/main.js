@@ -14,6 +14,7 @@ function generateColor() {
     let blue2 = document.querySelector('#blueValue2').value;
     let blueHex = blue1 + blue2;
 
+    
     let hexColor = redHex + greenHex + blueHex;
 
     document.querySelector('#shape').style.backgroundColor = `#${hexColor}`;
@@ -22,3 +23,11 @@ function generateColor() {
 
 
 }
+
+function changeColor(color) {
+    document.querySelector('#shape').style.backgroundColor = color;
+    document.querySelector('#hexOutput').innerText = color;
+    document.querySelector('#hexOutput').style.visibility = "visible";
+
+}
+

@@ -144,9 +144,11 @@
 			
 			</form>
 
-			<input type="color" value="#FFFFFF" title="Select color" id="colorInput"/>
 			<button id="generate">Generate Color</button>
-
+			<div>
+				<label for="colorInput">Select Color from Palette:</label>
+				<input type="color" value="#FFFFFF" title="Select color" id="colorInput" onchange="changeColor(this.value)" />
+			</div>
 			<div id="shape"></div>
 			<div>Hex Code: <span id="hexOutput">#123456</span></div>
 		</main>
