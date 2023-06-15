@@ -5,22 +5,22 @@ Generate and view custom hex colors.
 
 **Link to project:** [Generate Hex Colors](https://generate-hex-colors.netlify.app/)
 
-# Desktop View
+## Desktop View
 
 <img src="./generate-hex-colors.netlify.app_ (1).png" width="300px">
 
-# Mobile View
+## Mobile View
 <img src="./generate-hex-colors.netlify.app_(iPhone 12 Pro).png" width="300px">
 
-# Working
+## Working
 <img src="https://github.com/RabiaRB/Generate-Your-Colors/assets/58439957/df7ed9fe-8ee8-4b16-9922-7a7f5e02959c" width="300px">
 
 # Usage
-Enter the desired red, green, and blue values in the input fields. The values should range from 0 to 255.
+- Select the desired red, green, and blue values in the input fields.
 
-The hex color code will be automatically generated and displayed in the square box.
+- Clicking the generate button, the hex color code will be generated and displayed in the square box.
 
-Optionally, you can use the color picker input to select a color visually. The red, green, and blue values will be updated accordingly, and the hex color code and square box will be updated as well.
+- Optionally, you can use the color picker input to select a color visually. The red, green, and blue values will be updated accordingly, and the hex color code and square box will be updated as well.
 
 ## How It's Made:
 
