@@ -2,6 +2,7 @@
 Generate and view custom hex colors.
 
 **Description** This is a simple web page that allows you to input red, green, and blue values to create a hex color and display it in a square. It also provides an optional color picker input for easier color selection.
+
 **Link to project:** [Generate Hex Colors](https://generate-hex-colors.netlify.app/)
 
 # Desktop View
